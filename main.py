@@ -7,7 +7,7 @@ class Cosmo:
     def __init__(self):
         self.loginId = "mitunpokkisham@gmail.com"
         self.passCode = "LINKEDIN"
-        self.cosmoBanner = ""
+        self.cosmoBanner = """ """
         self.chromeDriver =  webdriver.Chrome(service= Service(ChromeDriverManager().install()))
         self.targetLink = "https://in.linkedin.com/"
     
